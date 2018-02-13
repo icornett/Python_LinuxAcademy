@@ -9,6 +9,7 @@ name = "pypi"
 
 pytest-mock = "*"
 pytest = "*"
+tox = "*"
 
 
 [packages]

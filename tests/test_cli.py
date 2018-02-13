@@ -35,8 +35,8 @@ def test_parser_with_unknown_driver(parser):
 	"""
 	The parser will exit if the driver name is unknown.
 	"""
-        with pytest.raises(SystemExit):
-                parser.parse_args([url, '--driver', 'azure', 'destination'])
+	with pytest.raises(SystemExit):
+		parser.parse_args([url, '--driver', 'azure', 'destination'])
 
 def test_parser_with_known_drivers(parser):
 	"""
