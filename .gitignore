@@ -103,3 +103,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Ignore include files and binaries
+include/
+bin/
